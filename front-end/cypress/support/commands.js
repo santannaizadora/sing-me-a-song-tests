@@ -1,5 +1,6 @@
 Cypress.Commands.add("resetDatabase", () => {
 	cy.request("POST", "http://localhost:5000/tests/reset", {});
+});
 
   Cypress.Commands.add("createRecommendationTest", (recommendation) => {
     cy.visit("http://localhost:3000/");
@@ -79,7 +80,6 @@ Cypress.Commands.add("resetDatabase", () => {
   });
   
 
-  Cypress.Commands.add("seedDB", () => {
+  Cypress.Commands.add("seedDatabase", () => {
     cy.request("POST", "http://localhost:5000/tests/seed", {});
   });
-});
