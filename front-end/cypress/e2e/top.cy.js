@@ -7,7 +7,7 @@ describe("Top page", () => {
   it("should return recommendations according to the amount", () => {
     cy.visit("http://localhost:3000/");
 
-    cy.contains("Top").click();
+    cy.contains("top").click();
 
     cy.url().should("equal", "http://localhost:3000/top");
 
