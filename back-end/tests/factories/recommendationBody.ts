@@ -3,8 +3,13 @@ export default function recommendationsBody() {
     {
       name: 'Billie Eilish - bad guy',
       youtubeLink:
-        'https://www.youtube.com/watch?v=DyDfgMOUjCI&ab_channel=BillieEilishVEVO',
-      score: 0,
+        'https://www.youtube.com/watch?v=DyDfgMOUjCI&ab_channel=BillieEilishVEVO'
+    },
+    {
+      name: 'error',
+      youtubeLink:
+        'https://www.google.com/',
+      score: 529,
     },
     {
       name: 'Eminem - Without Me (Official Music Video)',
