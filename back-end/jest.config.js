@@ -11,4 +11,11 @@ export default {
   moduleNameMapper: {
     "^(\\.{1,2}/.*)\\.js$": "$1",
   },
+  coverageProvider: "v8",
+  coverageReporters: ["json", "lcov", "text", "clover"],
+  coverageDirectory: "coverage",
+  collectCoverage: true,
+  coveragePathIgnorePatterns: [
+    "/node_modules/"
+  ]
 };
